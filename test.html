@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Result - WebSnap</title>
+      <style>
+            body {
+                  margin: 0;
+                  font-family: Arial, Helvetica, sans-serif;
+            }
+            .container {
+                  display: block;
+                  background-color: rgb(65, 65, 65);
+            }
+            header {
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 75%;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  color: white
+            }
+
+            a {
+                  list-style: none;
+                  display: inline;
+                  margin: auto 5px;
+                  font-size: x-large;
+            }
+            a:link {
+                  color: white;
+            }
+            img {
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+            }
+      </style>
 </head>
+
 <body>
-      <img id="screenshot" src="" alt="" srcset="">
+      <div class="container">
+            <header>
+                  <h1>Websnap</h1>
+                  <nav>
+                        <a href="#">PNG</a>
+                        <a href="#">JPG</a>
+                        <a href="#">GIF</a>
+                  </nav>
+            </header>
+      </div>
+      <img id="screenshot" src="" width="90%">
+      <script src="newtab.js"></script>
 </body>
+
 </html>
